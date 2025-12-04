@@ -1,0 +1,9 @@
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\bin\Debug\CreacionDeComponentes.dll
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\bin\Debug\CreacionDeComponentes.pdb
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.LabelTextBox.resources
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.dll
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.pdb
+C:\Users\Usuario\source\repos\DI\LabelTextBox\CreacionDeComponentes\obj\Debug\CreacionDeComponentes.Properties.Resources.resources

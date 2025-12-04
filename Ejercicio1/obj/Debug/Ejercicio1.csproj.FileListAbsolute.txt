@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.pdb
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\bin\Debug\CreacionDeComponentes.dll
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\bin\Debug\CreacionDeComponentes.pdb
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.exe.config
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+C:\Users\Usuario\source\repos\DI\LabelTextBox\Ejercicio1\obj\Debug\Ejercicio1.csproj.Up2Date
