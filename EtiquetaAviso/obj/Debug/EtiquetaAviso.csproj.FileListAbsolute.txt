@@ -1,0 +1,6 @@
+C:\Users\Usuario\source\repos\DI\LabelTextBox\EtiquetaAviso\bin\Debug\EtiquetaAviso.dll
+C:\Users\Usuario\source\repos\DI\LabelTextBox\EtiquetaAviso\bin\Debug\EtiquetaAviso.pdb
+C:\Users\Usuario\source\repos\DI\LabelTextBox\EtiquetaAviso\obj\Debug\EtiquetaAviso.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\EtiquetaAviso\obj\Debug\EtiquetaAviso.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\DI\LabelTextBox\EtiquetaAviso\obj\Debug\EtiquetaAviso.dll
+C:\Users\Usuario\source\repos\DI\LabelTextBox\EtiquetaAviso\obj\Debug\EtiquetaAviso.pdb

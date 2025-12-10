@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace CreacionDeComponentes
+namespace CreacionDeComponentes//rfefresh y color subrayado
 {
     public enum EPosicion
     {
@@ -93,6 +93,37 @@ namespace CreacionDeComponentes
             }
         }
 
+        [Category("Mis propiedades")]
+        [Description("Propiedad que indica si se subraya o no la label")]
+
+        private bool subrayar;
+        public bool Subrayar
+        {
+            set
+            {
+                subrayar = value;
+                Refresh();
+            }
+            get
+            {
+                return subrayar;
+            }
+        }
+
+        private Color col;
+        public Color Col
+        {
+            set
+            {
+                col = value;
+                Refresh();
+            }
+            get
+            {
+                return col;
+            }
+        }
+
         [Category("Mis Propiedades")]
         [Description("Texto asociado al TextBox del control")]
         public string TextTxt
@@ -115,12 +146,12 @@ namespace CreacionDeComponentes
         {
             set
             {
-                PswChr = txt.PasswordChar;
+                txt.PasswordChar = value;
             }
 
             get
             {
-                return PswChr;
+                return txt.PasswordChar;
             }
         }
 
@@ -156,21 +187,18 @@ namespace CreacionDeComponentes
 
         }
 
-        bool subrayado = true;
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
-            recolocar();
 
             //Pintar subrayado
-            if (subrayado)
+            if (Subrayar)
             {
-                e.Graphics.DrawLine(new Pen(Color.Violet),
+                e.Graphics.DrawLine(new Pen(Col),
                 lbl.Left, this.Height - 1,
                 lbl.Left + lbl.Width, this.Height - 1);
             }
-
-
+            recolocar();
         }
         private void txt_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -221,7 +249,5 @@ namespace CreacionDeComponentes
         {
             this.onTextChanged(e);
         }
-
-
     }
 }

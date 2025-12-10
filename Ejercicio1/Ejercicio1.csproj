@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,10 +81,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CreacionDeComponentes\CreacionDeComponentes.csproj">
+    <ProjectReference Include="..\CreacionDeComponentes\LabelTextBox.csproj">
       <Project>{937D466F-8183-41B8-84B6-00FCB08D2BC1}</Project>
-      <Name>CreacionDeComponentes</Name>
+      <Name>LabelTextBox</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castilloChill.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

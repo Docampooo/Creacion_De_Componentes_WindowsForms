@@ -32,6 +32,7 @@
             this.btnPosicion = new System.Windows.Forms.Button();
             this.btnReducir = new System.Windows.Forms.Button();
             this.btnAumentar = new System.Windows.Forms.Button();
+            this.etiquetaAviso1 = new CreacionDeComponentes.EtiquetaAviso();
             this.lTxt = new CreacionDeComponentes.LabelTextBox();
             this.SuspendLayout();
             // 
@@ -65,14 +66,33 @@
             this.btnAumentar.UseVisualStyleBackColor = true;
             this.btnAumentar.Click += new System.EventHandler(this.btnAumentar_Click);
             // 
+            // etiquetaAviso1
+            // 
+            this.etiquetaAviso1.BackColor = System.Drawing.SystemColors.Control;
+            this.etiquetaAviso1.ColorFinal = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.etiquetaAviso1.ColorInicial = System.Drawing.Color.DarkBlue;
+            this.etiquetaAviso1.Degradado = true;
+            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaAviso1.ImagenMarca = global::Ejercicio1.Properties.Resources.castilloChill;
+            this.etiquetaAviso1.Location = new System.Drawing.Point(83, 276);
+            this.etiquetaAviso1.Marca = CreacionDeComponentes.EMarca.Imagen;
+            this.etiquetaAviso1.Name = "etiquetaAviso1";
+            this.etiquetaAviso1.Size = new System.Drawing.Size(408, 109);
+            this.etiquetaAviso1.TabIndex = 6;
+            this.etiquetaAviso1.Text = "etiquetaAviso1";
+            // 
             // lTxt
             // 
+            this.lTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lTxt.BackgroundImage")));
+            this.lTxt.Col = System.Drawing.Color.IndianRed;
             this.lTxt.Location = new System.Drawing.Point(251, 55);
             this.lTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lTxt.Name = "lTxt";
             this.lTxt.Posicion = CreacionDeComponentes.EPosicion.IZQUIERDA;
+            this.lTxt.PswChr = '\0';
             this.lTxt.Separacion = 0;
-            this.lTxt.Size = new System.Drawing.Size(394, 22);
+            this.lTxt.Size = new System.Drawing.Size(203, 22);
+            this.lTxt.Subrayar = true;
             this.lTxt.TabIndex = 0;
             this.lTxt.TextLbl = "LabelTextBox";
             this.lTxt.TextTxt = "";
@@ -86,6 +106,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.etiquetaAviso1);
             this.Controls.Add(this.btnAumentar);
             this.Controls.Add(this.btnReducir);
             this.Controls.Add(this.btnPosicion);
@@ -102,6 +123,7 @@
         private System.Windows.Forms.Button btnPosicion;
         private System.Windows.Forms.Button btnReducir;
         private System.Windows.Forms.Button btnAumentar;
+        private CreacionDeComponentes.EtiquetaAviso etiquetaAviso1;
     }
 }
 
